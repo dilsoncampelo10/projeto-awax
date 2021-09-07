@@ -10,12 +10,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+body{
+    font-family: var(--font-principal);
+    overflow-x: hidden;
 }
 /*HEADER*/
 header{
     height: 100px;
     background-color: black;
-    
 }
 .container{
     max-width: 1116px;
@@ -28,6 +32,10 @@ header{
     width: 50px;
     height: 50px;
     background-color: var(--cor-padrao);
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 25px;
 }
 .menu{
     display: flex;
@@ -63,4 +71,97 @@ header{
     background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: bottom;
+    overflow: hidden;
+}
+.banner .sliders{
+    width: 350vw;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    
+}
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    
+}
+.banner .slidearea{
+    display: flex;
+    height:70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+}
+.banner h2{
+    color: white;
+    font-size: 22px;
+}
+.banner .slidearea a{
+    color: white;
+    margin-top: 20px;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: var(--cor-padrao);
+}
+.banner span{
+    color: var(--cor-padrao);
+}
+.sliders-pointer{
+    width: 100vw;
+    height: 15px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner .pointer{
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+    border: 2px solid var(--cor-padrao);
+    margin-right: 6px;
+    cursor: pointer;
+}
+.banner .pointer.active{
+    background-color: var(--cor-padrao);
+}
+
+.default{
+    padding: 50px 0;  
+}
+.default .section-title, .default .section-desc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.default .section-desc{
+    color: #9c9a9a;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+.default .section-body{
+    margin: auto;
+    max-width: 1116px;
+}
+.light{
+    background-color: #f7f7f7;
+}
+.dark{
+    background-color: black;
+    color: white;
 }
