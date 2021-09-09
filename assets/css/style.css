@@ -102,13 +102,14 @@ header{
     color: white;
     font-size: 22px;
 }
-.banner .slidearea a{
+.button{
     color: white;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 8px 30px;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
+    text-transform: uppercase;
     border-radius: 20px;
     background-color: var(--cor-padrao);
 }
@@ -143,7 +144,7 @@ header{
 .default .section-title, .default .section-desc{
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
 }
 .default .section-title{
     font-size: 20px;
@@ -164,4 +165,44 @@ header{
 .dark{
     background-color: black;
     color: white;
+}
+
+/*About us*/
+.section-about{
+    display: flex;
+}
+.informacao p{
+    width: 650px;
+    margin-bottom: 50px;
+}
+.video{
+    width: 460px;
+    
+}
+.video img{
+    width: 100%;
+    box-shadow: 0 5px 10px #222;
+}
+/*Services*/
+.services{
+    display: flex;
+    justify-content: center;
+}
+.service{
+    flex: 1;
+    text-align: center;
+    padding: 27px;
+    border-right: 2px solid #222;
+}
+.services:first-child{
+    border-left: 2px solid #222;
+}
+.service h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+.service p{
+    color: #9c9a9a;
+    font-size: 14px;
 }
