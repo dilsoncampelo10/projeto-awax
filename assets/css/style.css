@@ -206,3 +206,70 @@ header{
     color: #9c9a9a;
     font-size: 14px;
 }
+/*OUR PROJECTS*/
+.section-body .filtro{
+    margin: auto;
+    width: 550px;
+    background-color: #DDD;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  
+}
+.section-body .menu{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.section-body .filtro ul li{
+    padding:10px;
+    margin: 0;
+    color: #444;
+    font-size: 13px;
+    border-right: 1px solid #9c9a9a;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.section-body .filtro ul li:hover, .section-body .active{
+    border-bottom: 3px solid var(--cor-padrao);
+}
+.section-body .filtro ul li:last-child{
+    border-right: 0;
+}
+.section-body .photos{
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 20px;
+}
+.section-body .photo{
+    width: 280px;
+    
+}
+.section-body .photoarea{
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.section-body .photoarea img{
+    width: inherit;
+    height: inherit;
+}
+.section-body .photoinfo{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-body .photoarea:hover .photoinfo{
+    display: flex;
+}
