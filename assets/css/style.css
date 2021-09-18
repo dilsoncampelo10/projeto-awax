@@ -118,7 +118,7 @@ header{
 .banner span{
     color: var(--cor-padrao);
 }
-.banner .sliders-pointer{
+.sliders-pointer{
     width: 100vw;
     height: 15px;
     position: absolute;
@@ -128,7 +128,7 @@ header{
     align-items: center;
     
 }
-.banner .pointer{
+ .pointer{
     height: 14px;
     width: 14px;
     border-radius: 7px;
@@ -136,7 +136,7 @@ header{
     margin-right: 6px;
     cursor: pointer;
 }
-.banner .pointer.active{
+ .pointer.active{
     background-color: var(--cor-padrao);
 }
 
@@ -248,7 +248,6 @@ header{
 }
 .section-body .photo{
     width: 280px;
-    
 }
 .section-body .photoarea{
     margin: 10px;
@@ -284,7 +283,6 @@ header{
     padding: 0;
 }
 .sombra{
-    
     background-color: rgba(0,0,0,.9);
     padding: 50px 0;
 }
@@ -312,26 +310,7 @@ header{
    justify-content: center;
    align-items: center;
    background-color: white;
-}
-.sombra .sliders-pointer{
-    margin-top: 20px;
-    height: 15px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.sombra .pointer{
-    height: 14px;
-    width: 14px;
-    border-radius: 7px;
-    border: 2px solid var(--cor-padrao);
-    margin-right: 6px;
-    cursor: pointer;
-}
-.sombra .pointer.active{
-    background-color: var(--cor-padrao);
+   
 }
 
 .slidearea .informacoes h1{
@@ -353,11 +332,14 @@ header{
     margin-bottom: 40px;
     
 }
+.sombra .sliders-pointer{
+    margin-top: 20px;
+}
+/*Happy client*/
 .redes div{
-    margin-top: 40px;
     background-color: #9c9a9a;
     width: 30px;
-    margin-right: 5px;
+    margin: 40px 5px;
     text-align: center;
     line-height: 35px;
     border-radius: 15px;
@@ -367,4 +349,49 @@ header{
 .redes div:hover{
     background-color: var(--cor-padrao);
     
+}
+.happy-client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.happy-client .informacao{
+    text-align: center;
+}
+.happy-client .informacao h2{
+    margin-top: 10px;
+}
+.happy-client .informacao h3{
+    font-weight: 600;
+    margin-top: 5px;
+}
+.happy-client .informacao span{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ 
+}
+.happy-client .informacao p{
+    color: #444;
+}
+.happy-client .sliders-pointer{
+    display: flex;
+    margin-top: 380px;
+}
+/*Patrocinadores*/
+#patrocinio{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    padding: 0;
+    
+}
+.patrocinadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.patrocinadores img{
+    margin: 30px;
 }
