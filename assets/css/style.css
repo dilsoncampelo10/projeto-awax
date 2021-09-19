@@ -390,8 +390,57 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .patrocinadores img{
     margin: 30px;
+}
+/*PRICE*/
+#secao-price{
+    background-color: rgb(228, 225, 225);
+}
+.price{
+    display: flex;
+    text-align: center;
+}
+.price div{
+    background-color: white;
+    width: 253px;
+    padding: 30px 40px;
+    margin-right: 28px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #DDD;
+    flex: 1;
+}
+.price h1{
+    font-size: 30px;
+    color: #222;
+    margin-top: 14px;
+}
+.price h2{
+    font-size: 16px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.price h3{
+    font-size: 13px;
+    font-weight: 600;
+    color: #ccc;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.price ul{
+    margin-bottom: 26px;
+}
+.price ul li{
+    list-style: none;
+    color: #9c9a9a;
+    font-size: 13px;
+    font-weight: 600;
+}
+.price .button{
+    background-color: #444;
+}
+.price .button:hover{
+    background-color: #b78c55;
 }
