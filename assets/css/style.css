@@ -440,7 +440,87 @@ header{
 }
 .price .button{
     background-color: #444;
+    padding:13px 40px;
 }
 .price .button:hover{
     background-color: #b78c55;
+}
+/*PREMIUM*/
+.pacotes{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pacotes .informacao h1{
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: #222;
+}
+.info1 img{
+    
+    margin-bottom: -10px;
+}
+.info1 p, .info1 ul{
+    margin-top: 10px;
+    padding-left: 50px;
+    font-size: 14px;
+    color: #9c9a9a;
+    margin-bottom: 0;
+}
+.info1 ul{
+    text-transform: uppercase;
+    list-style: none;
+}
+.info1 ul li{
+    margin-bottom: 8px;
+}
+.info1{
+    margin-bottom: 20px;
+}
+.premium .sliders-pointer{
+    margin-top: 30px;
+    margin-left: -110px;
+    width: 100%;
+    margin-bottom: 1;
+}
+.btn_fora{
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+}
+.btn_fora .button{
+    padding: 13px 40px;
+}
+/*Some facts*/
+.facts{
+    display: flex;
+    text-align: center;
+}
+.facts .space_facts{
+    flex: 1;
+    padding: 30px;
+}
+.facts .space_facts h1{
+    color: #b78c55;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.facts .space_facts .traco{
+    background-color: #9c9a9a;
+    width: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 5px;
+}
+.facts .space_facts h2{
+    font-size: 22.3px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.facts .space_facts p{
+    font-size: 13px;
+}
+.facts :nth-child(2).space_facts :nth-child(4), .facts :nth-child(4).space_facts :nth-child(4){
+   margin-top: 35px;
 }
