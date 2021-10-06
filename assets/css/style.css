@@ -449,7 +449,8 @@ header{
 .pacotes{
     display: flex;
     justify-content: space-between;
-    
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 30px;
 }
 
 .pacotes .informacao h1{
@@ -487,12 +488,14 @@ header{
 }
 .btn_fora{
     text-align: center;
-    margin: 30px 0px 50px 0px;
+    margin: 90px 0 50px 10px;
 }
 .btn_fora .button{
     padding: 13px 40px;
+    
 }
 /*Some facts*/
+
 .facts{
     display: flex;
     text-align: center;
@@ -523,4 +526,56 @@ header{
 }
 .facts :nth-child(2).space_facts :nth-child(4), .facts :nth-child(4).space_facts :nth-child(4){
    margin-top: 35px;
+}
+/*Redes sociais*/
+#sec_redes{
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+.redes-sociais{
+  display: flex;
+  justify-content: space-around;
+  color: #9c9a9a;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-items: center;
+}
+.redes-sociais .sharing{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 200px;
+}
+.sociais{
+    display:flex;
+    align-items: center;
+   justify-content: space-around;
+   width: 500px;
+}
+.sociais .social{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+.sociais .social:nth-child(1){
+    background-color: #33c4f0;
+}
+.sociais .social:nth-child(3){
+    background-color: #127cb6;
+}
+.sociais .social:nth-child(5){
+    background-color:#336296;
+}
+.sociais .social:nth-child(7){
+    background-color:#e84138;
+}
+.sociais .social:nth-child(9){
+    background-color:#b81c29;
+}
+/*CONTACT*/
+.cadastro{
+    display: flex;
+    justify-content: center;
 }
