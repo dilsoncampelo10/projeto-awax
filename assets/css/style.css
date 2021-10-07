@@ -460,7 +460,6 @@ header{
     color: #222;
 }
 .info1 img{
-    
     margin-bottom: -10px;
 }
 .info1 p, .info1 ul{
@@ -578,4 +577,38 @@ header{
 .cadastro{
     display: flex;
     justify-content: center;
+}
+.cadastro form{
+    width: 545px;
+}
+#idsubject, #idmessage{
+    width: 95%;
+}
+#idnome, #idemail, #idsubject, #idmessage{
+    border: 0;
+    border-bottom: 2px solid #9c9a9a;
+    margin-bottom: 45px;
+    margin-right: 30px;
+    outline: 0;
+    background-color: inherit;
+    padding-bottom:10px;
+}
+#idmessage{
+    resize: none;
+    padding: 0;
+}
+#idnome, #idemail{
+    justify-content: space-between;
+    width: 50%;
+    flex: 1;
+}
+#conj_cont{
+    display: flex;
+}
+#btn_cad{
+    text-align: center;
+    width: 500px;
+}
+#btn_cad .button{
+    padding: 15px 35px;
 }
